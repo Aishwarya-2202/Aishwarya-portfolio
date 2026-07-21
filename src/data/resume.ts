@@ -58,12 +58,28 @@ export const experience = [
 
 export const projects = [
   {
-    title: 'IPL Matches Analytics',
-    subtitle: 'End-to-End Data & BI Project',
-    tech: ['Python', 'SQL', 'Power BI', 'Matplotlib', 'Seaborn'],
+    title: 'Enterprise Business Analytics & Decision Intelligence Platform',
+    subtitle: 'End-to-End Data Warehouse · ML · BI Project',
+    tech: ['Python', 'PostgreSQL', 'SQL', 'Power BI', 'Excel', 'Scikit-learn', 'XGBoost'],
     year: '2026',
     description:
-      'Ingested and profiled raw IPL CSV data; applied advanced SQL window functions to surface a counter-intuitive insight — toss winners convert to match victories only ≈50% of the time. Built an interactive Power BI dashboard with Season and Team slicers.',
+      'Designed a centralized analytics platform consolidating raw sales, customer, product, and store data into a governed data warehouse. Automated KPI calculations (revenue, CLV, AOV, customer segmentation), validated statistical significance of business trends, and built interactive Power BI dashboards with DAX measures, KPI scorecards, and drill-down analysis. Developed classification models using Random Forest and XGBoost achieving up to 100% accuracy, and produced executive reports translating analytical findings into actionable business recommendations.',
+    bullets: [
+      'Eliminated fragmented spreadsheet-based reporting by designing a centralized analytics platform that consolidated raw sales, customer, product, and store data into a governed data warehouse, providing a single source of truth for business reporting and executive decision-making.',
+      'Standardized business KPI calculations by automating revenue, gross profit, customer lifetime value, average order value, monthly growth, and customer segmentation, replacing inconsistent manual reporting with reproducible analytical metrics.',
+      'Discovered that 85.7% of total quarterly revenue originated from the Furniture category, with a single product contributing a significant share of overall sales, highlighting revenue concentration risk and recommending product diversification.',
+      'Analysed monthly revenue trends and demonstrated that apparent business growth (+25.0% followed by -26.1%) was not statistically significant using regression analysis (p = 0.863), preventing misleading strategic decisions based on short-term fluctuations.',
+      'Investigated customer purchasing behaviour through statistical hypothesis testing and established that weekend transactions showed higher average order values than weekdays, though the difference was not statistically significant (p = 0.104).',
+      'Evaluated the relationship between product pricing and purchase quantity using Pearson correlation analysis (r = 0.103, p = 0.211), demonstrating that pricing alone was not a statistically significant driver of purchasing behaviour.',
+      'Compared multiple forecasting techniques including Linear Regression, ARIMA, and Excel forecasting models, identifying stable short-term demand while recommending additional historical data collection before relying on long-term forecasts.',
+      'Performed Customer Lifetime Value analysis to classify customers into Platinum, Gold, Silver, and Bronze segments, identifying high-value customers for retention strategies and supporting data-driven CRM.',
+      'Benchmarked predictive models against a naïve baseline and demonstrated evidence-based model validation rather than reporting misleading results, preventing deployment of an unreliable predictive model.',
+      'Developed classification models using Random Forest and XGBoost, achieving up to 100% classification accuracy while analysing feature importance to identify the strongest predictors of product category classification.',
+      'Designed reusable SQL analytics using CTEs, Window Functions, Ranking Functions, Views, Aggregations, and Joins to automate revenue contribution, customer ranking, sales trends, profitability analysis, and growth reporting.',
+      'Automated the complete analytics workflow through a modular ETL architecture transforming raw transactional data into validated analytical datasets, ensuring repeatable, idempotent data processing across analytics, ML, and BI modules.',
+      'Built interactive Power BI dashboards with custom DAX measures, KPI scorecards, drill-down analysis, time intelligence, and executive visualisations enabling stakeholder self-service analysis across revenue, profitability, and operational performance.',
+      'Produced executive reports translating analytical findings into actionable business recommendations including revenue diversification, customer retention strategies, and improved forecasting capabilities while documenting analytical limitations.',
+    ],
     github: 'https://github.com/Aishwarya-2202',
     color: 'from-teal-500/20 to-cyan-500/20',
     accent: '#14b8a6',
@@ -116,7 +132,7 @@ export const projects = [
 
 export const skills = {
   Languages: ['Python', 'SQL', 'JavaScript', 'Solidity', 'PHP'],
-  'Data & Analytics': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'Power BI', 'Recharts'],
+  'Data & Analytics': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'XGBoost', 'Power BI', 'Excel', 'Recharts'],
   'Web & Full-Stack': ['HTML', 'CSS'],
   Databases: ['MySQL', 'PostgreSQL', 'Supabase'],
   'Tools & DevOps': ['Git', 'GitHub', 'Docker', 'Microsoft 365', 'Ganache', 'Web3.js'],
